@@ -13,7 +13,7 @@ print(html)
 root = etree.HTML(html)
 lis = root.xpath('//ul[@class="pagination"]/li')
 page_text = lis[0].xpath('string(.)')
-ls = re.findall('[0-9],page_text')
+ls = re.findall('[0-9]',page_text)
 
 max_no = int(ls[0])
 
