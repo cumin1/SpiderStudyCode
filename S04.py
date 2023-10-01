@@ -1,3 +1,4 @@
+import re
 import requests
 from lxml import etree
 
@@ -6,7 +7,17 @@ myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'
 }
 
-for i in range(1, 6):
+url = ori_url % 1
+html = requests.get(url,headers=myheaders).text
+print(html)
+root = etree.HTML(html)
+lis = root.xpath('//ul[@class="pagination"]/li')
+page_text = lis[0].xpath('string(.)')
+ls = re.findall('[0-9],page_text')
+
+max_no = int(ls[0])
+
+for i in range(1, max_no+1):
     url = ori_url % i
     html = requests.get(url, headers=myheaders).text
     print(html)
