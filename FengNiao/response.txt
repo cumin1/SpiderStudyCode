@@ -1,0 +1,73 @@
+{
+    "code": 20000,
+    "msg": "成功",
+    "data": {
+        "list": [
+            {
+                "entPic": "国康疗休",
+                "ENTSTATUS": "在营",
+                "entid": "7xOKlJ4FrCPJ",
+                "faren": "孙建芬",
+                "UNISCID": "91320506MA271KMG8K",
+                "tels": [
+                    "15267032425"
+                ],
+                "emails": [
+                    "651629798@qq.com"
+                ],
+                "highlightIds": [],
+                "REGNO": "320506001231959",
+                "personid": "OYpHearhnDms",
+                "regConcat": "500.0万元人民币",
+                "emailCount": 1,
+                "DOM": "苏州市养育巷280号",
+                "ENTNAME_SEARCH": "<span style='color:#f14f43;'>国康疗休养服务</span>（<span style='color:#f14f43;'>苏州</span>）<span style='color:#f14f43;'>有限公司</span>",
+                "REGCAP": "500.0",
+                "dataType": "company_basic",
+                "REGCAPCUR": "万元人民币",
+                "ENTTYPE": "1151",
+                "tags": [
+                    "企业",
+                    "微型"
+                ],
+                "ESDATE": "2021-09-08",
+                "farenType": 2,
+                "telCount": 1,
+                "highlightExtraKey": "",
+                "ENTNAME": "国康疗休养服务（苏州）有限公司",
+                "WEBSITE": "-",
+                "highlightNameType": "公司名称"
+            }
+        ],
+        "aggregation": {
+            "industry": [
+                {
+                    "code": "L72",
+                    "name": "商务服务业",
+                    "count": 1
+                }
+            ],
+            "entStatus": [
+                {
+                    "code": "1",
+                    "name": "在营",
+                    "count": 1,
+                    "sort": "1"
+                }
+            ],
+            "region": [
+                {
+                    "code": "320000",
+                    "name": "江苏",
+                    "count": 1
+                }
+            ]
+        },
+        "isList": true,
+        "isVip": true,
+        "keyword": "国康疗休养服务(苏州)有限公司",
+        "total": 1,
+        "fuzzyId": 42637815
+    },
+    "success": true
+}

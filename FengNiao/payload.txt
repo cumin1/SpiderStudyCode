@@ -1,0 +1,1 @@
+{"queryType":"1","searchKey":"国康疗休养服务(苏州)有限公司","pageNo":1,"range":10,"selectConditionData":"{\"regionid\":\"\",\"status\":\"\",\"nicid\":\"\",\"sort_field\":\"\"}"}
